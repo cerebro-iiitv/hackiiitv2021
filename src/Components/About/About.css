@@ -11,7 +11,7 @@
 }
 
 .about-container .about-column .about-title {
-  font-family: Almarai, "Calibri";
+  font-family: Almarai-Bold, "Calibri";
   font-weight: bold;
   font-size: 40px;
   color: #ffffff;
@@ -30,7 +30,7 @@
 .about-container .about-column .about-text {
   /* width: 594px;
   height: 243px; */
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: gill sans l, "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 300;
   font-size: 24px;
   color: #ffffff;
@@ -55,7 +55,7 @@
 }
 
 .about-container .about-column .about-btn .about-btn-txt {
-  font-family: Avenir Next, "Helvetica", sans-serif;
+  font-family: avenir, "Helvetica", sans-serif;
   font-weight: 600;
   font-size: 17px;
   color: #292c5d;

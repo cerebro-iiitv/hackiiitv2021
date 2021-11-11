@@ -21,3 +21,33 @@ code {
 .swiggly-img {
   width: 100%;
 }
+
+@font-face {
+  font-family: avenir;
+  src: url("./assets/fonts/avenir.otf");
+}
+
+@font-face {
+  font-family: Almarai-Bold;
+  src: url("./assets/fonts/Almarai-Bold.ttf");
+}
+
+@font-face {
+  font-family: asap;
+  src: url("./assets/fonts/asap.ttf");
+}
+
+@font-face {
+  font-family: avenir-bold;
+  src: url("./assets/fonts/avenir-bold.otf");
+}
+
+@font-face {
+  font-family: gill sans l;
+  src: url("./assets/fonts/gill sans l.otf");
+}
+
+@font-face {
+  font-family: avenir eb;
+  src: url("./assets/fonts/avenir-eb.otf");
+}
