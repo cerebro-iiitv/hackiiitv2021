@@ -1,0 +1,43 @@
+.faqs-container {
+  padding-top: 220px;
+  padding-bottom: 145px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.faqs-col {
+  width: 38vw;
+}
+
+.faqs-left {
+  padding-top: 169px;
+}
+
+.faqs-title {
+  font-family: avenir-bold;
+  font-weight: bold;
+  font-size: 140px;
+}
+
+.faqs-descp {
+  font-family: avenir;
+  font-size: 24px;
+}
+
+.faqs-red {
+  color: #ff5f5d;
+  text-decoration: none;
+}
+
+.faqs-vl {
+  border-left: 2px solid #ff5f5d;
+  height: 50rem;
+}
+
+.faqs-hl {
+  border: none;
+  width: 102%;
+  height: 2px;
+  background: #ff5f5d;
+}

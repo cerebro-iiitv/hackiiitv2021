@@ -5,6 +5,10 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 32px;
+  /*To fix navbar to the top of page uncomment the following code*/
+  /* padding-bottom: 15px;
+  position: fixed;
+  width: 100%; */
 }
 
 .links {
@@ -36,6 +40,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin-right: 5px;
 
   text-decoration: none;
   background: #ffca39;

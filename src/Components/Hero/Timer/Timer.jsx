@@ -9,7 +9,7 @@ const Timer = () => {
 
   useEffect(() => {
     //TODO: Set the countdown date here
-    const countdownDate = new Date("Dec 20, 2021 00:00:00").getTime();
+    const countdownDate = new Date("Dec 10, 2021 00:00:00").getTime();
 
     const interval = setInterval(() => {
       const currentTime = new Date().getTime();

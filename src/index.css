@@ -28,6 +28,21 @@ code {
 }
 
 @font-face {
+  font-family: avenir-light;
+  src: url("./assets/fonts/avenir-light.ttf");
+}
+
+@font-face {
+  font-family: avenir-bold;
+  src: url("./assets/fonts/avenir-bold.otf");
+}
+
+@font-face {
+  font-family: avenir-eb;
+  src: url("./assets/fonts/avenir-eb.otf");
+}
+
+@font-face {
   font-family: Almarai-Bold;
   src: url("./assets/fonts/Almarai-Bold.ttf");
 }
@@ -38,16 +53,6 @@ code {
 }
 
 @font-face {
-  font-family: avenir-bold;
-  src: url("./assets/fonts/avenir-bold.otf");
-}
-
-@font-face {
   font-family: gill sans l;
   src: url("./assets/fonts/gill sans l.otf");
-}
-
-@font-face {
-  font-family: avenir eb;
-  src: url("./assets/fonts/avenir-eb.otf");
 }

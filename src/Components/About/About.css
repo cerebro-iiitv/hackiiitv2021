@@ -38,10 +38,12 @@
 
 .about-container .about-column .about-text .about-red {
   color: #ff5f5d;
+  text-decoration: none;
 }
 
 .about-container .about-column .about-text .about-blue {
   color: #00aadd;
+  text-decoration: none;
 }
 
 .about-container .about-column .about-btn {

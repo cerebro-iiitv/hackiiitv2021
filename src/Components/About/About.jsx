@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./About.css";
 
 const About = () => {
@@ -10,21 +11,26 @@ const About = () => {
           <p className="about-title">About HACKIIITV</p>
           <hr className="about-line" />
           <p className="about-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut{" "}
-            <span className="about-red">labore et</span> dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-            ut aliquip ex ea commodo consequat. Duis aute irure dolor in{" "}
-            <span className="about-blue">reprehenderit</span> in voluptate velit
-            esse cillum dolore eu fugiat nulla pariatur.
+            HACKIIITV is a free intra college hackathon, hosted by the Technical
+            Committee of IIIT Vadodara. It will be conducted over a duration of{" "}
+            <span className="about-red">48 hours</span>, hackers are immersed in
+            tech culture and are encouraged to exercise their imagination to
+            create interesting and{" "}
+            <span className="about-blue">innovative hacks</span> for the given
+            themes. We want this HACKIITV to be an{" "}
+            <span className="about-red">inclusive environment</span> where you
+            can learn new things, meet new people, and receive support!
             <br />
-            <br /> Excepteur sint occaecat{" "}
-            <span className="about-red">cupidatat</span> non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            <br />
+            Have a look at the{" "}
+            <Link className="about-blue" to="">
+              themes
+            </Link>{" "}
+            and start brainstorming!
           </p>
-          <button className="about-btn">
+          {/* <button className="about-btn">
             <span className="about-btn-txt">Learn More</span>
-          </button>
+          </button> */}
         </div>
       </div>
       <img src={"./images/swiggly.svg"} alt="swiggly" className="swiggly-img" />
