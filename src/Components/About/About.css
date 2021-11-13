@@ -1,0 +1,65 @@
+.about-container {
+  padding-top: 44px;
+  padding-bottom: 160px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.about-container .about-column {
+  width: 40%;
+}
+
+.about-container .about-column .about-title {
+  font-family: Almarai-Bold, "Calibri";
+  font-weight: bold;
+  font-size: 40px;
+  color: #ffffff;
+  text-shadow: 0px 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.about-container .about-column .about-line {
+  width: 323px;
+  height: 2px;
+  border: none;
+  background-color: #3f448f;
+  margin-top: 16px;
+  margin-bottom: 27px;
+}
+
+.about-container .about-column .about-text {
+  /* width: 594px;
+  height: 243px; */
+  font-family: gill sans l, "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.about-container .about-column .about-text .about-red {
+  color: #ff5f5d;
+  text-decoration: none;
+}
+
+.about-container .about-column .about-text .about-blue {
+  color: #00aadd;
+  text-decoration: none;
+}
+
+.about-container .about-column .about-btn {
+  margin-top: 58px;
+  background: #ffca39;
+  box-shadow: 0px 2px 9px 3px rgba(27, 27, 27, 0.25);
+  border-radius: 5px;
+  border-style: none;
+  width: 183px;
+  height: 45px;
+}
+
+.about-container .about-column .about-btn .about-btn-txt {
+  font-family: avenir, "Helvetica", sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  color: #292c5d;
+  background: none;
+}

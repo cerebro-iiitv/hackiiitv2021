@@ -1,0 +1,18 @@
+.faq-item {
+  color: #ffffff;
+  padding-top: 36px;
+  padding-bottom: 24px;
+}
+
+.faq-ques {
+  font-family: avenir;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.faq-ans {
+  padding-top: 20px;
+  font-family: avenir-light;
+  font-size: 18px;
+  font-weight: lighter;
+}

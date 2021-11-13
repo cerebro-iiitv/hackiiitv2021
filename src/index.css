@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #292c5d;
+}
+
+.swiggly-img {
+  width: 100%;
+}
+
+@font-face {
+  font-family: avenir;
+  src: url("./assets/fonts/avenir.otf");
+}
+
+@font-face {
+  font-family: avenir-light;
+  src: url("./assets/fonts/avenir-light.ttf");
+}
+
+@font-face {
+  font-family: avenir-bold;
+  src: url("./assets/fonts/avenir-bold.otf");
+}
+
+@font-face {
+  font-family: avenir-eb;
+  src: url("./assets/fonts/avenir-eb.otf");
+}
+
+@font-face {
+  font-family: Almarai-Bold;
+  src: url("./assets/fonts/Almarai-Bold.ttf");
+}
+
+@font-face {
+  font-family: asap;
+  src: url("./assets/fonts/asap.ttf");
+}
+
+@font-face {
+  font-family: gill sans l;
+  src: url("./assets/fonts/gill sans l.otf");
+}
