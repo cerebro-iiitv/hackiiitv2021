@@ -1,0 +1,14 @@
+.rules-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-auto-flow: column; */
+}
+
+.rules-title {
+  text-align: center;
+  font-family: avenir-bold;
+  font-size: 60px;
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
