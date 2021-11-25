@@ -1,0 +1,32 @@
+.rule-item {
+  border: 1px solid #717171;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 38px 40px;
+  margin: 2.18rem 2rem;
+}
+
+.rule-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  width: 30px;
+  height: 30px;
+  background: #ff5f5d;
+  margin-bottom: 23px;
+}
+
+.rule-number {
+  background: none;
+  font-family: avenir-bold;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.rule-text {
+  font-family: avenir;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+}
