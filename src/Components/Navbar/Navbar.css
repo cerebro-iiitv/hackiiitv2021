@@ -56,8 +56,8 @@
   color: #292c5d;
 }
 
-.fa-discord {
-  color: #292c5d;
+.discord-img {
+  background: none;
 }
 
 .leaderboard {
@@ -86,9 +86,6 @@
 
 .lederlogo {
   background: none;
-  color: #292c5d;
-  width: 20px;
-  height: 20px;
   padding-right: 10px;
 }
 

@@ -35,25 +35,27 @@ const navbar = () => {
 
       <div className="part2">
         <div className="buttonss">
-          <a className="discord fab fa-discord" href="#">
+          <a className="discord" href="#">
             {" "}
+            <img src={"./images/icons/Discord.svg"} alt="discord" className="discord-img" />
             <div className="distext">Join Discord</div>
           </a>
 
+          
           <a className="leaderboard" href="#">
             {" "}
             <div className="ledtext">
-              <img className="lederlogo" src={"./images/leder.svg"} />
+              <img className="lederlogo" src={"./images/icons/leder.svg"} />
               Leaderboard
             </div>
           </a>
         </div>
 
         <div className="icons">
-          <a href="#" className="fab fa-twitter icontext"></a>
-          <a href="#" className="fab fa-instagram icontext"></a>
-          <a href="#" className="fab fa-youtube icontext"></a>
-          <a href="#" className="fab fa-facebook icontext"></a>
+          <a href="#" ><img src={"./images/icons/Twitter.svg"} alt="twitter" className="twitter-img" /></a>
+          <a href="#" ><img src={"./images/icons/Instagram.svg"} alt="instagram" className="instagram-img" /></a>
+          <a href="#" ><img src={"./images/icons/Youtube.svg"} alt="youtube" className="youtube-img" /></a>
+          <a href="#" ><img src={"./images/icons/Facebook.svg"} alt="facebook" className="facebook-img" /></a>
         </div>
       </div>
     </div>
