@@ -10,6 +10,7 @@ import Prizes from "./Components/Prizes/Prizes";
 import Schedule from "./Components/Schedule/Schedule";
 import Sponsors from "./Components/Sponsors/Sponsors";
 import Team from "./Components/Team/Team";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Sponsors />
         <Team />
         <Faqs />
+        <Footer />
       </Router>
     </div>
   );
