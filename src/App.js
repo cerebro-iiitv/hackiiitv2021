@@ -6,6 +6,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Faqs from "./Components/Faqs/Faqs";
 import Rules from "./Components/Rules/Rules";
 import Themes from "./Components/Themes/Themes";
+import Prizes from "./Components/Prizes/Prizes";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <About />
         <Rules />
         <Themes />
+        <Prizes />
         <Faqs />
       </Router>
     </div>
