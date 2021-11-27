@@ -1,0 +1,33 @@
+.schedule-container {
+}
+
+.schedule-super-title {
+  text-align: center;
+  font-family: avenir-bold;
+  color: #ff5f5d;
+  font-size: 24px;
+}
+
+.schedule-title {
+  text-align: center;
+  font-family: avenir-eb;
+  font-size: 60px;
+  color: #ffffff;
+  padding-bottom: 70px;
+}
+
+.day-btns {
+  display: flex;
+  justify-content: space-around;
+}
+
+.timeline-btn {
+  width: 30%;
+  height: 64px;
+  background: #393e82;
+  border-radius: 10px;
+  border: none;
+  font-family: avenir-bold;
+  font-size: 24px;
+  color: #ffffff;
+}

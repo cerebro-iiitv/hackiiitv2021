@@ -1,0 +1,114 @@
+/*Credits: https://www.florin-pop.com/blog/2019/04/how-to-create-a-timeline-with-react/ */
+
+.timeline-item {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+  position: relative;
+  margin: 10px 0;
+  width: 50%;
+}
+
+.timeline-item:nth-child(odd) {
+  align-self: flex-end;
+  justify-content: flex-start;
+  padding-left: 30px;
+  padding-right: 0;
+}
+
+.timeline-item-wrapper {
+  border-radius: 5px;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 15px;
+  position: relative;
+  width: 490px;
+  max-width: 70%;
+  text-align: right;
+  padding-right: 40px;
+  margin-bottom: 40px;
+}
+
+.timeline-item-wrapper::after {
+  content: " ";
+  background: none;
+  position: absolute;
+  right: -7.5px;
+  top: calc(50% - 7.5px);
+  transform: rotate(45deg);
+  width: 15px;
+  height: 15px;
+}
+
+.timeline-item:nth-child(odd) .timeline-item-wrapper {
+  text-align: left;
+  align-items: flex-start;
+  padding-left: 40px;
+}
+
+.timeline-item:nth-child(odd) .timeline-item-wrapper::after {
+  right: auto;
+  left: -7.5px;
+}
+
+.timeline-item-title {
+  font-family: avenir-bold;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.timeline-item-hr {
+  width: 462px;
+  height: 3px;
+  background: #393e82;
+  border: none;
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+
+.timeline-item-text {
+  background: none;
+  font-family: avenir;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.timeline-item-time {
+  font-family: avenir;
+  font-size: 24px;
+  color: #ff5f5d;
+  padding-bottom: 15px;
+}
+
+.timeline-item-wrapper .timeline-item-circle {
+  background-color: #ff5f5d;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 10px);
+  right: -20px;
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+}
+
+.timeline-item:nth-child(odd) .timeline-item-wrapper .timeline-item-circle {
+  right: auto;
+  left: -20px;
+}
+
+.timeline-circle-index {
+  font-family: avenir-bold;
+  font-size: 24px;
+  color: #ffffff;
+  /* z-index: 100; */
+  background: none;
+  position: absolute;
+  right: 12px;
+  top: 4px;
+}
+
+.timeline-item:nth-child(odd) .timeline-circle-index {
+  left: 12px;
+}
