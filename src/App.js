@@ -8,6 +8,7 @@ import Rules from "./Components/Rules/Rules";
 import Themes from "./Components/Themes/Themes";
 import Prizes from "./Components/Prizes/Prizes";
 import Schedule from "./Components/Schedule/Schedule";
+import Sponsors from "./Components/Sponsors/Sponsors";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Themes />
         <Schedule />
         <Prizes />
+        <Sponsors />
         <Faqs />
       </Router>
     </div>

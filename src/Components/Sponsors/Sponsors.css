@@ -1,0 +1,41 @@
+.sponsors-container {
+  padding-top: 75px;
+  padding-bottom: 141px;
+}
+
+.sponsors-super-title {
+  text-align: center;
+  font-family: avenir-bold;
+  color: #ff5f5d;
+  font-size: 24px;
+}
+
+.sponsors-title {
+  text-align: center;
+  font-family: avenir-eb;
+  font-size: 60px;
+  color: #ffffff;
+  padding-bottom: 40px;
+}
+
+.sponsors-images-wrapper {
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sponsors-image-container {
+  /* margin: auto;
+  padding: 45px 0px; */
+  flex: 0 0 calc(25.66% - 20px);
+  color: white;
+  padding: 20px;
+  margin: 10px;
+
+}
+
+.sponsors-image {
+  width: 100%;
+}
