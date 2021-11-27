@@ -5,6 +5,7 @@ import About from "./Components/About/About";
 import Navbar from "./Components/Navbar/Navbar";
 import Faqs from "./Components/Faqs/Faqs";
 import Rules from "./Components/Rules/Rules";
+import Themes from "./Components/Themes/Themes";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <About />
         <Rules />
+        <Themes />
         <Faqs />
       </Router>
     </div>

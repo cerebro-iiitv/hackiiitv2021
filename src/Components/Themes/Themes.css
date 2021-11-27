@@ -1,0 +1,19 @@
+.themes-title {
+  text-align: center;
+  font-family: avenir-bold;
+  font-size: 60px;
+  color: #ffffff;
+}
+
+.themes-super-title {
+  text-align: center;
+  font-family: avenir-bold;
+  color: #FF5F5D;
+  font-size: 24px;
+}
+
+.themes-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px;
+}
