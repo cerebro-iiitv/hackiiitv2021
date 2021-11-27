@@ -9,6 +9,7 @@ import Themes from "./Components/Themes/Themes";
 import Prizes from "./Components/Prizes/Prizes";
 import Schedule from "./Components/Schedule/Schedule";
 import Sponsors from "./Components/Sponsors/Sponsors";
+import Team from "./Components/Team/Team";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Schedule />
         <Prizes />
         <Sponsors />
+        <Team />
         <Faqs />
       </Router>
     </div>

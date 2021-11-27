@@ -1,0 +1,21 @@
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.team-super-title {
+  padding-top: 100px;
+  text-align: center;
+  font-family: avenir-bold;
+  font-size: 24px;
+  color: #FF5F5D;
+}
+
+.team-title {
+  text-align: center;
+  font-family: avenir-bold;
+  font-size: 60px;
+  color: #ffffff;
+  padding-bottom: 80px;
+}

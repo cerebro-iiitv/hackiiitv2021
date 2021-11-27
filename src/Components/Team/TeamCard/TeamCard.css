@@ -1,0 +1,53 @@
+.teamcard-container {
+  padding: 30px 0px;
+}
+
+.teamcard-image-container {
+  width: 320px;
+  height: 320px;
+}
+
+.teamcard-image {
+  width: 320px;
+  height: 320px;
+}
+
+.teamcard-details {
+  background: none;
+  background-color: #393E82;
+  border-radius: 0px 0px 20px 20px;
+  width: 320px;
+}
+
+.teamcard-name {
+  padding-top: 10px;
+  text-align: center;
+  background: none;
+  font-family: avenir-bold;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.teamcard-post {
+  text-align: center;
+  background: none;
+  font-family: avenir-bold;
+  font-size: 14px;
+  color: #ff5f5d;
+  padding-bottom: 10px;
+}
+
+.teamcard-icon {
+  background: none;
+}
+
+.teamcard-links-container {
+  padding-bottom : 25px;
+  background: none;
+  text-align : center;
+}
+
+.teamcard-link {
+  background: none;
+  padding: 0px 10px;
+}
