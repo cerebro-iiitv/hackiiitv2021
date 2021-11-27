@@ -8,8 +8,8 @@ const Sponsors = () => {
       <div className="sponsors-super-title">Amazing</div>
       <div className="sponsors-title">Sponsors</div>
       <div className="sponsors-images-wrapper">
-        {sponsorsdata.map((sponsor) => (
-          <div className="sponsors-image-container">
+        {sponsorsdata.map((sponsor, index) => (
+          <div className="sponsors-image-container" key={index}>
             <img
               className="sponsors-image"
               src={sponsor.url}

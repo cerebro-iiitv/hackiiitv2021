@@ -20,10 +20,10 @@ const Faqs = () => {
       <div className="faqs-vl"></div>
       <div className="faqs-col">
         {faqsdata.map((faq, i) => (
-          <>
+          <div key={i}>
             <Faq question={faq.question} answer={faq.answer} />
             {i !== faqsdata.length - 1 && <hr className="faqs-hl" />}
-          </>
+          </div>
         ))}
       </div>
     </div>

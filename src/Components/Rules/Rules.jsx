@@ -9,7 +9,7 @@ const Rules = () => {
       <div className="rules-title">Rules</div>
       <div className="rules-container">
         {rulesdata.map((rule, index) => (
-          <Rule number={index + 1} text={rule.text} />
+          <Rule number={index + 1} text={rule.text} key={index}/>
         ))}
       </div>
     </>

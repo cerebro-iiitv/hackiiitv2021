@@ -9,8 +9,8 @@ const Themes = () => {
       <div className="themes-super-title">Hack the Problem</div>
       <div className="themes-title">Themes</div>
       <div className="themes-container">
-        {themesdata.map((theme) => (
-          <ThemeCard theme={theme} />
+        {themesdata.map((theme, index) => (
+          <ThemeCard theme={theme} key={index}/>
         ))}
       </div>
     </div>
