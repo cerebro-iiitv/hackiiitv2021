@@ -1,18 +1,26 @@
 export const sponsorsdata = [
   {
     name: "Hapramp",
-    url: "https://picsum.photos/380/250",
+    url: "./images/sponsors/Hap1.svg",
   },
   {
-    name: "Hapramp",
-    url: "https://picsum.photos/380/250",
+    name: "Devfolio",
+    url: "./images/sponsors/Devfolio.svg",
   },
   {
-    name: "Hapramp",
-    url: "https://picsum.photos/380/250",
+    name: "Polygon",
+    url: "./images/sponsors/Polygon.svg",
   },
   {
-    name: "Hapramp",
-    url: "https://picsum.photos/380/250",
+    name: "Celo",
+    url: "./images/sponsors/Celo.svg",
+  },
+  {
+    name: "Tezoz",
+    url: "./images/sponsors/Tezos.svg",
+  },
+  {
+    name: "Filecoin",
+    url: "./images/sponsors/Filecoin.svg",
   },
 ];

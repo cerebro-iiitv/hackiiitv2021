@@ -2,7 +2,18 @@ import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 
-const navbar = () => {
+const Navbar = () => {
+  React.useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <div className="containerr">
       <div className="links">
@@ -45,12 +56,12 @@ const navbar = () => {
             <div className="distext">Join Discord</div>
           </a>
 
-          <a className="leaderboard" href="#">
-            <img
-              className="lederlogo"
-              src={"./images/icons/devfolio.svg"}
-              alt="devfolio"
-            />
+          <a className="devfolio" href="#">
+            <div
+              class="apply-button devfolio-button"
+              data-hackathon-slug="hackiiitv2021"
+              data-button-theme="light"
+            ></div>
           </a>
         </div>
 
@@ -88,4 +99,4 @@ const navbar = () => {
     </div>
   );
 };
-export default navbar;
+export default Navbar;

@@ -21,7 +21,7 @@
 .buttonss {
   display: flex;
   flex-direction: row;
-  width: 50%;
+  width: 75%;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -30,17 +30,18 @@
   display: flex;
   flex-direction: row;
   width: 20%;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .discord {
-  position: relative;
+  position: static;
   width: 150px;
-  height: 45px;
+  height: 44px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin-right: 5px;
+  margin-bottom: 4px;
 
   text-decoration: none;
   background: #ffca39;
@@ -58,27 +59,6 @@
 
 .discord-img {
   background: none;
-}
-
-.leaderboard {
-  position: static;
-  width: 160px;
-  height: 45px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-
-  text-decoration: none;
-  background: #95aaed;
-  box-shadow: 0px 2px 9px 3px rgba(27, 27, 27, 0.25);
-  border-radius: 5px;
-}
-
-.lederlogo {
-  background: none;
-  padding-right: 10px;
-  height: 22px;
-  color: #292c5d;
 }
 
 .part2 {
@@ -108,4 +88,14 @@
   text-decoration: none;
   width: 18px;
   height: 18px;
+}
+
+.devfolio-button{
+  position:static;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: none;
+  text-decoration: none;
+  width: 100px;
 }
