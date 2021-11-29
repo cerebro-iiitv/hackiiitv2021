@@ -2,7 +2,18 @@ import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 
-const navbar = () => {
+const Navbar = () => {
+  React.useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <div className="containerr">
       <div className="links">
@@ -35,28 +46,57 @@ const navbar = () => {
 
       <div className="part2">
         <div className="buttonss">
-          <a className="discord fab fa-discord" href="#">
+          <a className="discord" href="#">
             {" "}
+            <img
+              src={"./images/icons/Discord.svg"}
+              alt="discord"
+              className="discord-img"
+            />
             <div className="distext">Join Discord</div>
           </a>
 
-          <a className="leaderboard" href="#">
-            {" "}
-            <div className="ledtext">
-              <img className="lederlogo" src={"./images/leder.svg"} />
-              Leaderboard
-            </div>
+          <a className="devfolio" href="#">
+            <div
+              class="apply-button devfolio-button"
+              data-hackathon-slug="hackiiitv2021"
+              data-button-theme="light"
+            ></div>
           </a>
         </div>
 
         <div className="icons">
-          <a href="#" className="fab fa-twitter icontext"></a>
-          <a href="#" className="fab fa-instagram icontext"></a>
-          <a href="#" className="fab fa-youtube icontext"></a>
-          <a href="#" className="fab fa-facebook icontext"></a>
+          <a href="#">
+            <img
+              src={"./images/icons/Twitter.svg"}
+              alt="twitter"
+              className="twitter-img"
+            />
+          </a>
+          <a href="#">
+            <img
+              src={"./images/icons/Instagram.svg"}
+              alt="instagram"
+              className="instagram-img"
+            />
+          </a>
+          <a href="#">
+            <img
+              src={"./images/icons/Youtube.svg"}
+              alt="youtube"
+              className="youtube-img"
+            />
+          </a>
+          <a href="#">
+            <img
+              src={"./images/icons/Facebook.svg"}
+              alt="facebook"
+              className="facebook-img"
+            />
+          </a>
         </div>
       </div>
     </div>
   );
 };
-export default navbar;
+export default Navbar;

@@ -1,0 +1,94 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  flex-direction: column;
+}
+
+.redHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95px;
+  height: 33px;
+
+  font-family: avenir-bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #ff5f5d;
+}
+
+.mainHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 173px;
+  height: 82px;
+
+  font-family: avenir-bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  color: #ffffff;
+}
+
+.prizeCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.prize-item {
+  width: 320px;
+  height: 600px;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin-left: 25.5px;
+  margin-right: 25.5px;
+}
+
+.prize-number {
+  border-bottom: 2px solid #ffffff;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 40px;
+}
+
+.numberText {
+  width: 60px;
+  height: 55px;
+
+  font-family: avenir-bold;
+  font-style: normal;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.mainText {
+  font-family: avenir;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+}
+
+.tickImg {
+  height: 26px;
+  padding-right: 5px;
+}
+
+.prize-text {
+  display: flex;
+  align-items: center;
+
+  margin-left: 25px;
+  margin-right: 30px;
+  margin-top: 30px;
+}
