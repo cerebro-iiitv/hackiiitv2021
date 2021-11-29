@@ -1,8 +1,11 @@
-export const sponsorsdata = [
+export const titlesponsors = [
   {
     name: "Hapramp",
     url: "./images/sponsors/Hap1.svg",
   },
+];
+
+export const goldsponsors = [
   {
     name: "Devfolio",
     url: "./images/sponsors/Devfolio.svg",
@@ -11,6 +14,9 @@ export const sponsorsdata = [
     name: "Polygon",
     url: "./images/sponsors/Polygon.svg",
   },
+];
+
+export const silversponsors = [
   {
     name: "Celo",
     url: "./images/sponsors/Celo.svg",

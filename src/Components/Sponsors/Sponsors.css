@@ -21,21 +21,29 @@
   /* display: grid;
   grid-template-columns: repeat(3, 1fr); */
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  /* flex-direction: column; */
   justify-content: center;
+  padding-bottom: 40px;
 }
 
 .sponsors-image-container {
-  /* margin: auto;
-  padding: 45px 0px; */
+  /* padding: 45px 0px; */
   flex: 0 0 calc(25.66% - 20px);
   color: white;
-  padding: 20px;
-  margin: 10px;
+  padding: 10px;
+  /* margin: auto; */
+  display: flex;
+  justify-content: center;
 }
 
 .sponsors-image {
   width: 280px;
   height: 150px;
+}
+
+.sponsors-category {
+  font-size: 40px;
+  color: #ff5f5d;
+  text-align: center;
+  font-family: avenir-bold;
 }
