@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer-text">
         For any further queries please reach out to us at
       </div>
-      <div className="footer-email">hackiiitv@iiitvadoda.ac.in</div>
+      <div className="footer-email">hackiiitv@iiitvadodara.ac.in</div>
       <div className="footer-social">
         <a href="http://twitter.com/">
           <img

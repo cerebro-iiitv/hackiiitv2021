@@ -11,7 +11,7 @@ const Sponsors = () => {
     <div className="sponsors-container">
       <div className="sponsors-super-title">Amazing</div>
       <div className="sponsors-title">Sponsors</div>
-      <div className="sponsors-category">Title Sponsors</div>
+      <div className="sponsors-category">Title Sponsor</div>
       <div className="sponsors-images-wrapper">
         {titlesponsors.map((sponsor, index) => (
           <div className="sponsors-image-container" key={index}>
