@@ -59,7 +59,7 @@ const Navbar = () => {
           <a className="devfolio" href="#">
             <div
               class="apply-button devfolio-button"
-              data-hackathon-slug="hackiiitv2021"
+              data-hackathon-slug="HACKIIITV2021"
               data-button-theme="light"
             ></div>
           </a>

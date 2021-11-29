@@ -20,11 +20,11 @@ function App() {
         <Hero />
         <About />
         <Rules />
-        <Themes />
+        {/* <Themes /> */}
         <Schedule />
-        <Prizes />
+        {/* <Prizes /> */}
         <Sponsors />
-        <Team />
+        {/* <Team /> */}
         <Faqs />
         <Footer />
       </Router>
