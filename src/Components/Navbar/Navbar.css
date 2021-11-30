@@ -108,4 +108,12 @@
   .links {
     width: 100%;
   }
+
+  .linktext {
+    font-size: 16px;
+  }
+
+  .containerr {
+    padding-top: 10px;
+  }
 }
