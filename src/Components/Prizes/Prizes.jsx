@@ -15,7 +15,7 @@ const Prizes = () => {
         </div>
 
         <div className="prize-item">
-          <div className="prize-number"><div className="numberText">2st</div></div>
+          <div className="prize-number"><div className="numberText">2nd</div></div>
           <div className="prize-text"><p className="mainText"><img src={"./images/icons/tick.svg"} alt="tick" className="tickImg"/>6000/-</p></div>
         </div>
 

@@ -17,8 +17,8 @@
 
 .themecard-image {
   width: 100%;
-  height: 75%;
-  border-radius: 20px;
+  /* height: 75%; */
+  border-radius: 20px 20px 0px 0px;
 }
 
 .themecard-text {
@@ -32,4 +32,15 @@
   position: absolute;
   /* margin-top: 250px; */
   margin-right: 20px;
+}
+
+@media (max-width: 600px) {
+  .themecard-text {
+    font-size: 22px;
+    padding: 30px;
+  }
+
+  .themecard-container {
+    margin-bottom: 25px;
+  }
 }

@@ -19,6 +19,6 @@
   .rules-container{
     display: flex;
     flex-direction: column;
-    padding-bottom: 0px;
+    padding-bottom: 25px;
   }
 }

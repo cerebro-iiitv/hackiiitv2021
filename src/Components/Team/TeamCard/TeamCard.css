@@ -3,12 +3,12 @@
 }
 
 .teamcard-image-container {
-  width: 320px;
+  /* width: 320px; */
   height: 320px;
 }
 
 .teamcard-image {
-  width: 320px;
+  /* width: 320px; */
   height: 320px;
 }
 
@@ -50,4 +50,18 @@
 .teamcard-link {
   background: none;
   padding: 0px 10px;
+}
+
+@media (max-width: 600px) {
+  .teamcard-container {
+    padding: 10px;
+  }
+
+  .teamcard-details {
+    width: 300px;
+  }
+
+  .teamcard-image {
+    width: 300px;
+  }
 }
