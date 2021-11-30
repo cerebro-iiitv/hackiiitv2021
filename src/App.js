@@ -21,7 +21,7 @@ function App() {
         <About />
         <Rules />
         {/* <Themes /> */}
-        <Schedule />
+        {/* <Schedule /> */}
         {/* <Prizes /> */}
         <Sponsors />
         {/* <Team /> */}
