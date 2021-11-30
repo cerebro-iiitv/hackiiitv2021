@@ -2,45 +2,63 @@ export const scheduledata = [
   [
     {
       index: 1,
-      title: "Introduction to HackIIITV and Everything!.",
-      time: "6:00 - 7:00",
+      title: "Registration Begins!",
+      time: "30th November",
       text: "All about what a hackathon is, tips for effective teamwork, how to use Discord, basically everything!.",
     },
     {
       index: 2,
-      title: "Start Line and Team Formation",
-      time: "9:00 - 10:00",
-      text: "Form teams of 4 members and register",
+      title: "Registration Ends",
+      time: "9th December",
+      text: "Form teams of 3-5 members and register",
     },
   ],
 
   [
     {
       index: 1,
-      title: "Day 2 starts",
-      time: "6:00 - 7:00",
-      text: "Start hacking!!",
+      title: "Themes Announced!",
+      time: "18:00, 10th December",
+      text: "All about what a hackathon is, tips for effective teamwork, how to use the Discord server, Themes announced, basically everything!.",
     },
     {
       index: 2,
-      title: "Day 2 ends",
-      time: "9:00 - 10:00",
-      text: "All about what a hackathon is, tips for effective teamwork, how to use Discord, basically everything!.",
+      title: "Hackathon Begins!",
+      time: "10th December",
+      text: "Start hacking!!",
     },
   ],
 
   [
     {
       index: 1,
-      title: "Judging",
-      time: "15:00 - 18:00",
+      title: "Day 2",
+      time: "11th December",
+      text: "Continue working on your hacks",
+    },
+  ],
+
+  [
+    {
+      index: 1,
+      title: "Day 3 starts",
+      time: "12th December",
       text: "Start hacking!!",
     },
     {
       index: 2,
-      title: "Day 3 ends",
-      time: "09:00 - 10:00",
-      text: "Discord, basically everything!.",
+      title: "Hackathon Ends",
+      time: "18:00, 12th December",
+      text: "Submit your solution along with an explanatory video",
+    },
+  ],
+
+  [
+    {
+      index: 1,
+      title: "Winners",
+      time: "26th November",
+      text: "Winnning teams announced on the official discord server of Technical Committee",
     },
   ],
 ];

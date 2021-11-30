@@ -6,9 +6,10 @@ import { scheduledata } from "../util/ScheduleData";
 const Timeline = ({ day }) => {
   return (
     <div className="timeline-container">
-      {scheduledata[day - 1].map((data) => (
-        <TimelineItem data={data} key={data.time} />
+      {scheduledata[day].map((data, index) => (
+        <TimelineItem data={data} key={index} />
       ))}
+      {console.log(day)}
     </div>
   );
 };
