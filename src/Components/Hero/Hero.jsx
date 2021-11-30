@@ -11,7 +11,7 @@ const Hero = () => {
           <div className="hero-text-container">
             <p className="hero-date">10th - 12th December</p>
             <p className="hero-text">
-              A Hackathon for beautiful minded. 48 Hour Long organised by{" "}
+              A Hackathon for the beautiful minded. 48 Hour Long organised by{" "}
               <span className="hero-iiitv">IIIT Vadodara</span>
             </p>
           </div>

@@ -16,7 +16,7 @@ const About = () => {
             tech culture and are encouraged to exercise their imagination to
             create interesting and{" "}
             <span className="about-blue">innovative hacks</span> for the given
-            themes. We want this HACKIITV to be an{" "}
+            themes. We want this HACKIIITV to be an{" "}
             <span className="about-red">inclusive environment</span> where you
             can learn new things, meet new people, and receive support!
             <br />

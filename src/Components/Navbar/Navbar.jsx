@@ -26,11 +26,11 @@ const Navbar = () => {
             Rules
           </a>
         </div>
-        {/* <div>
+        <div>
           <a href="#schedule" className="linktext">
             Schedule
           </a>
-        </div> */}
+        </div>
         {/* <div>
           <a href="#prizes" className="linktext">
             Prizes

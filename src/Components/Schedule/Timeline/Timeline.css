@@ -13,3 +13,10 @@
   width: 2px;
   height: 100%;
 }
+
+@media (max-width: 600px) {
+  .timeline-container::after {
+    margin-left: 30px;
+    left: calc(2px);
+  }
+}
