@@ -1,10 +1,9 @@
 .faqs-container {
-  padding-top: 220px;
+  padding-top: 100px;
   padding-bottom: 145px;
   color: #ffffff;
   display: flex;
   justify-content: space-evenly;
-  text-align: center;
 }
 
 .faqs-col {
@@ -51,6 +50,7 @@
   .faqs-container {
     flex-direction: column;
     padding: 0px;
+    text-align: center;
   }
 
   .faqs-vl {

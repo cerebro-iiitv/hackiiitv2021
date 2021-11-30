@@ -1,6 +1,5 @@
 import React from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
   React.useEffect(() => {
@@ -18,29 +17,29 @@ const Navbar = () => {
     <div className="containerr">
       <div className="links">
         <h6>
-          <Link to="/prizes" className="linktext">
-            Prizes
-          </Link>
-        </h6>
-        <h6>
-          <Link to="/rules" className="linktext">
+          <a href="#rules" className="linktext">
             Rules
-          </Link>
+          </a>
         </h6>
-        <h6>
-          <Link to="/faq" className="linktext">
-            Faq
-          </Link>
-        </h6>
-        <h6>
-          <Link to="/contactUs" className="linktext">
-            Contact Us
-          </Link>
-        </h6>
-        <h6>
-          <Link to="/schedule" className="linktext">
+        {/* <h6>
+          <a href="#schedule" className="linktext">
             Schedule
-          </Link>
+          </a>
+        </h6> */}
+        {/* <h6>
+          <a href="#prizes" className="linktext">
+            Prizes
+          </a>
+        </h6> */}
+        <h6>
+          <a href="#faqs" className="linktext">
+            Faqs
+          </a>
+        </h6>
+        <h6>
+          <a href="#contact-us" className="linktext">
+            Contact Us
+          </a>
         </h6>
       </div>
 

@@ -6,7 +6,7 @@ const Schedule = () => {
   const [day, setDay] = useState(0);
 
   return (
-    <div className="schedule-container">
+    <div className="schedule-container" id="schedule">
       <h2 className="schedule-super-title">2021</h2>
       <h1 className="schedule-title">Schedule</h1>
       <div className="day-btns">

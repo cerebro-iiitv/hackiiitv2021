@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./About.css";
 
 const About = () => {
@@ -23,9 +22,9 @@ const About = () => {
             <br />
             <br />
             Have a look at the{" "}
-            <Link className="about-blue" to="">
+            <a className="about-blue" href="#themes">
               themes
-            </Link>{" "}
+            </a>{" "}
             and start brainstorming!
           </p>
           {/* <button className="about-btn">
