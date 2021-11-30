@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <div className="containerr">
       <div className="links">
-      <div>
+        <div>
           <a href="#about" className="linktext">
             About
           </a>
@@ -50,7 +50,12 @@ const Navbar = () => {
 
       <div className="part2">
         <div className="buttonss">
-          <a className="discord" href="https://discord.com/invite/nCXtMzkteR" target="_blank" rel="noreferrer">
+          <a
+            className="discord"
+            href="https://discord.com/invite/nCXtMzkteR"
+            target="_blank"
+            rel="noreferrer"
+          >
             {" "}
             <img
               src={"./images/icons/Discord.svg"}
