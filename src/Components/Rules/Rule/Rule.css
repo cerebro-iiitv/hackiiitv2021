@@ -30,3 +30,9 @@
   font-size: 18px;
   color: #ffffff;
 }
+
+@media (max-width: 600px) {
+  .rule-item {
+    margin: 0.5rem 1rem;
+  }
+}

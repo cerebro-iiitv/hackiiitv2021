@@ -63,3 +63,26 @@
   color: #292c5d;
   background: none;
 }
+
+@media (max-width: 600px) {
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 10px;
+  }
+
+  .about-container .about-column {
+    width: 90%;
+    padding: 10px;
+    justify-content: center;
+  }
+
+  .about-img {
+    width: 90%;
+  }
+
+  .about-title {
+    text-align: center;
+  }
+}
