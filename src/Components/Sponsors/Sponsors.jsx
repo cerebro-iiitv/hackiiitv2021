@@ -15,11 +15,13 @@ const Sponsors = () => {
       <div className="sponsors-images-wrapper">
         {titlesponsors.map((sponsor, index) => (
           <div className="sponsors-image-container" key={index}>
-            <img
-              className="sponsors-image"
-              src={sponsor.url}
-              alt={sponsor.name}
-            />
+            <a href={sponsor.link}>
+              <img
+                className="sponsors-image"
+                src={sponsor.url}
+                alt={sponsor.name}
+              />
+            </a>
           </div>
         ))}
       </div>
@@ -27,11 +29,13 @@ const Sponsors = () => {
       <div className="sponsors-images-wrapper">
         {goldsponsors.map((sponsor, index) => (
           <div className="sponsors-image-container" key={index}>
-            <img
-              className="sponsors-image"
-              src={sponsor.url}
-              alt={sponsor.name}
-            />
+            <a href={sponsor.link}>
+              <img
+                className="sponsors-image"
+                src={sponsor.url}
+                alt={sponsor.name}
+              />
+            </a>
           </div>
         ))}
       </div>
@@ -39,11 +43,13 @@ const Sponsors = () => {
       <div className="sponsors-images-wrapper">
         {silversponsors.map((sponsor, index) => (
           <div className="sponsors-image-container" key={index}>
-            <img
-              className="sponsors-image"
-              src={sponsor.url}
-              alt={sponsor.name}
-            />
+            <a href={sponsor.link}>
+              <img
+                className="sponsors-image"
+                src={sponsor.url}
+                alt={sponsor.name}
+              />
+            </a>
           </div>
         ))}
       </div>

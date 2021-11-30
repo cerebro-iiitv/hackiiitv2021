@@ -2,12 +2,12 @@ export const faqsdata = [
   {
     question: "What is a hackathon and who can participate in HACKIIITV?",
     answer:
-      "Hackathon is an event in which a large number of people meet to engage in collaborative computer programming, number of problems or themes are provided and the teams try to think of some innovative solutions for those problems and try to implement them. Everyone currently enrolled in a bachelor's degree or program is eligible to take part.",
+      `Hackathon is an event in which a large number of people meet to engage in collaborative computer programming, number of problems or themes are provided and the teams try to think of some innovative solutions for those problems and try to implement them. Everyone currently enrolled in a bachelor's degree or program in IIIT Vadodara is eligible to take part.      `,
   },
   {
     question: "What can be the size of the team?",
     answer:
-      "The size of team can range from a team of 2 to 4 members. A person can be a member of only one team.",
+      "The size of team can range from a team of 3 to 5 members. A person can be a member of only one team.",
   },
   {
     question: "How are the projects judged and how many rounds will be there?",
