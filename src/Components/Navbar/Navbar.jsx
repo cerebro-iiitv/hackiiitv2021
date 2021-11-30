@@ -16,36 +16,41 @@ const Navbar = () => {
   return (
     <div className="containerr">
       <div className="links">
-        <h6>
+      <div>
+          <a href="#about" className="linktext">
+            About
+          </a>
+        </div>
+        <div>
           <a href="#rules" className="linktext">
             Rules
           </a>
-        </h6>
-        {/* <h6>
+        </div>
+        {/* <div>
           <a href="#schedule" className="linktext">
             Schedule
           </a>
-        </h6> */}
-        {/* <h6>
+        </div> */}
+        {/* <div>
           <a href="#prizes" className="linktext">
             Prizes
           </a>
-        </h6> */}
-        <h6>
+        </div> */}
+        <div>
           <a href="#faqs" className="linktext">
             Faqs
           </a>
-        </h6>
-        <h6>
+        </div>
+        <div>
           <a href="#contact-us" className="linktext">
             Contact Us
           </a>
-        </h6>
+        </div>
       </div>
 
       <div className="part2">
         <div className="buttonss">
-          <a className="discord" href="#">
+          <a className="discord" href="https://discord.com/invite/nCXtMzkteR" target="_blank" rel="noreferrer">
             {" "}
             <img
               src={"./images/icons/Discord.svg"}
@@ -55,7 +60,7 @@ const Navbar = () => {
             <div className="distext">Join Discord</div>
           </a>
 
-          <a className="devfolio" href="#">
+          <a className="devfolio" href="#" target="_blank" rel="noreferrer">
             <div
               class="apply-button devfolio-button"
               data-hackathon-slug="HACKIIITV2021"

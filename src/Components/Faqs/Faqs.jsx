@@ -13,7 +13,7 @@ const Faqs = () => {
           <br />
            {/* TODO: Add correct links*/}
           <a className="faqs-red" href="#contact-us">Reach out to our Team </a>or
-          <a className="faqs-red" href="https://discord.com/" target="_blank" rel="noreferrer"> Join us on Discord</a>
+          <a className="faqs-red" href="https://discord.gg/nCXtMzkteR" target="_blank" rel="noreferrer"> Join us on Discord</a>
         </p>
       </div>
       <div className="faqs-vl"></div>

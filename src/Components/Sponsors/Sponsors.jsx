@@ -15,7 +15,7 @@ const Sponsors = () => {
       <div className="sponsors-images-wrapper">
         {titlesponsors.map((sponsor, index) => (
           <div className="sponsors-image-container" key={index}>
-            <a href={sponsor.link}>
+            <a href={sponsor.link} target="_blank" rel="noreferrer">
               <img
                 className="sponsors-image"
                 src={sponsor.url}
@@ -29,7 +29,7 @@ const Sponsors = () => {
       <div className="sponsors-images-wrapper">
         {goldsponsors.map((sponsor, index) => (
           <div className="sponsors-image-container" key={index}>
-            <a href={sponsor.link}>
+            <a href={sponsor.link} target="_blank" rel="noreferrer">
               <img
                 className="sponsors-image"
                 src={sponsor.url}
@@ -43,7 +43,7 @@ const Sponsors = () => {
       <div className="sponsors-images-wrapper">
         {silversponsors.map((sponsor, index) => (
           <div className="sponsors-image-container" key={index}>
-            <a href={sponsor.link}>
+            <a href={sponsor.link} target="_blank" rel="noreferrer">
               <img
                 className="sponsors-image"
                 src={sponsor.url}

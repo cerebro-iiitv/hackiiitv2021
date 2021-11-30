@@ -13,21 +13,21 @@ const Footer = () => {
         </a>
       </div>
       <div className="footer-social">
-        <a href="https://twitter.com/cerebro_iiitv/">
+        <a href="https://twitter.com/cerebro_iiitv/" target="_blank" rel="noreferrer">
           <img
             className="footer-social-icon"
             alt="twitter"
             src={"./images/icons/Twitter.svg"}
           />
         </a>
-        <a href="https://www.instagram.com/_._cerebro_._/">
+        <a href="https://www.instagram.com/_._cerebro_._/" target="_blank" rel="noreferrer">
           <img
             className="footer-social-icon"
             alt="instagram"
             src={"./images/icons/Instagram.svg"}
           />
         </a>
-        <a href="https://www.facebook.com/cerebro.iiitv/">
+        <a href="https://www.facebook.com/cerebro.iiitv/" target="_blank" rel="noreferrer">
           <img
             className="footer-social-icon"
             alt="facebook"
