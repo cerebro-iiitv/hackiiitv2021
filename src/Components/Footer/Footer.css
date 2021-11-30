@@ -13,9 +13,14 @@
   padding-top: 45px;
   padding-bottom: 90px;
   font-family: avenir-bold;
-  font-size: 70px;
+  font-size: 3.75em;
   text-align: center;
   color: #ffffff;
+}
+
+.footer-email-link {
+  text-decoration: none;
+  color:#ffffff;
 }
 
 .footer-social {
