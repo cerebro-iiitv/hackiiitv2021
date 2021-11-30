@@ -22,7 +22,7 @@ function App() {
       <Schedule />
       {/* <Prizes /> */}
       <Sponsors />
-      {/* <Team /> */}
+      <Team />
       <Faqs />
       <Footer />
     </div>
