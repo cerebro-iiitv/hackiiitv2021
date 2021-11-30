@@ -65,7 +65,7 @@ const Navbar = () => {
           </a>
         </div>
 
-        <div className="icons">
+        {/* <div className="icons">
           <a href="#">
             <img
               src={"./images/icons/Twitter.svg"}
@@ -94,7 +94,7 @@ const Navbar = () => {
               className="facebook-img"
             />
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
