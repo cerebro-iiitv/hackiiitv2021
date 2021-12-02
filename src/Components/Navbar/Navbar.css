@@ -14,7 +14,7 @@
 .links {
   display: flex;
   flex-direction: row;
-  width: 45%;
+  width: 50%;
   justify-content: space-around;
 }
 
@@ -98,4 +98,22 @@
   background: none;
   text-decoration: none;
   width: 100px;
+}
+
+@media (max-width: 1000px) {
+  .part2 {
+    display: none;
+  }
+
+  .links {
+    width: 100%;
+  }
+
+  .linktext {
+    font-size: 16px;
+  }
+
+  .containerr {
+    padding-top: 10px;
+  }
 }

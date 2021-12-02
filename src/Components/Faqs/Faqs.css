@@ -1,5 +1,5 @@
 .faqs-container {
-  padding-top: 220px;
+  padding-top: 100px;
   padding-bottom: 145px;
   color: #ffffff;
   display: flex;
@@ -40,4 +40,29 @@
   width: 102%;
   height: 2px;
   background: #ff5f5d;
+}
+
+@media (max-width: 600px) {
+  .faqs-title {
+    font-size: 60px;
+  }
+
+  .faqs-container {
+    flex-direction: column;
+    padding: 0px;
+    text-align: center;
+  }
+
+  .faqs-vl {
+    margin: auto;
+    margin-top: 30px;
+    height: 2px;
+    border-width: 250px;
+  }
+
+  .faqs-col {
+    margin: auto;
+    width: 80%;
+    padding-top: 0px;
+  }
 }

@@ -73,3 +73,39 @@
   color: #b8b8b8;
   text-decoration: none;
 }
+
+@media (max-width: 600px) {
+  .footer-text {
+    font-size: 14px;
+  }
+
+  .footer-email {
+    font-size: 18px;
+    padding-bottom: 60px;
+  }
+
+  .footer-social-icon {
+    width: 30px;
+    height: 30px;
+    padding-bottom: 30px;
+  }
+
+  .footer-copyright-title {
+    padding: 10px;
+  }
+
+  .footer-copyright {
+    margin: auto;
+  }
+
+  .footer-social {
+    margin: 0 20%;
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer-email {
+    font-size: 12px;
+  }
+}

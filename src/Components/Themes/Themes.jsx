@@ -5,7 +5,7 @@ import ThemeCard from "./ThemeCard/ThemeCard";
 
 const Themes = () => {
   return (
-    <div>
+    <div id="themes">
       <div className="themes-super-title">Hack the Problem</div>
       <div className="themes-title">Themes</div>
       <div className="themes-container">

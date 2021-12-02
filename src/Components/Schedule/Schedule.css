@@ -1,6 +1,3 @@
-.schedule-container {
-}
-
 .schedule-super-title {
   text-align: center;
   font-family: avenir-bold;
@@ -30,4 +27,27 @@
   font-family: avenir-bold;
   font-size: 24px;
   color: #ffffff;
+  margin: 0px 1rem;
 }
+
+@media (max-width: 600px) {
+  .schedule-container {
+    padding-top: 50px;
+  }
+  
+  .day-btns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .timeline-btn {
+    width: 80%;
+    height: 40px;
+    font-size: 20px;
+    margin: 5px;
+  }
+
+  .schedule-title {
+    padding-bottom: 10px;
+  }
+} 

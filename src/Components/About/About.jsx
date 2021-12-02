@@ -1,12 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./About.css";
 
 const About = () => {
   return (
     <>
-      <div className="about-container">
-        <img src={"./images/about.svg"} alt="about" />
+      <div className="about-container" id="about">
+        <img className="about-img" src={"./images/about.svg"} alt="about" />
         <div className="about-column">
           <p className="about-title">About HACKIIITV</p>
           <hr className="about-line" />
@@ -17,15 +16,15 @@ const About = () => {
             tech culture and are encouraged to exercise their imagination to
             create interesting and{" "}
             <span className="about-blue">innovative hacks</span> for the given
-            themes. We want this HACKIITV to be an{" "}
+            themes. We want this HACKIIITV to be an{" "}
             <span className="about-red">inclusive environment</span> where you
             can learn new things, meet new people, and receive support!
             <br />
             <br />
             Have a look at the{" "}
-            <Link className="about-blue" to="">
+            <a className="about-blue" href="#themes">
               themes
-            </Link>{" "}
+            </a>{" "}
             and start brainstorming!
           </p>
           {/* <button className="about-btn">

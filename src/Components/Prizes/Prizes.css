@@ -92,3 +92,15 @@
   margin-right: 30px;
   margin-top: 30px;
 }
+
+@media (max-width: 600px) {
+  .prizeCards {
+    flex-direction: column;
+    padding-top: 0px;
+    width: 175%;
+  }
+
+  .prize-item {
+    margin-top: 20px;
+  }
+}

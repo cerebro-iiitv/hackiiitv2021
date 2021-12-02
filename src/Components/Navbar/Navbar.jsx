@@ -1,6 +1,5 @@
 import React from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
   React.useEffect(() => {
@@ -17,36 +16,46 @@ const Navbar = () => {
   return (
     <div className="containerr">
       <div className="links">
-        <h6>
-          <Link to="/prizes" className="linktext">
-            Prizes
-          </Link>
-        </h6>
-        <h6>
-          <Link to="/rules" className="linktext">
+        <div>
+          <a href="#about" className="linktext">
+            About
+          </a>
+        </div>
+        <div>
+          <a href="#rules" className="linktext">
             Rules
-          </Link>
-        </h6>
-        <h6>
-          <Link to="/faq" className="linktext">
-            Faq
-          </Link>
-        </h6>
-        <h6>
-          <Link to="/contactUs" className="linktext">
-            Contact Us
-          </Link>
-        </h6>
-        <h6>
-          <Link to="/schedule" className="linktext">
+          </a>
+        </div>
+        <div>
+          <a href="#schedule" className="linktext">
             Schedule
-          </Link>
-        </h6>
+          </a>
+        </div>
+        {/* <div>
+          <a href="#prizes" className="linktext">
+            Prizes
+          </a>
+        </div> */}
+        <div>
+          <a href="#faqs" className="linktext">
+            Faqs
+          </a>
+        </div>
+        <div>
+          <a href="#contact-us" className="linktext">
+            Contact Us
+          </a>
+        </div>
       </div>
 
       <div className="part2">
         <div className="buttonss">
-          <a className="discord" href="#">
+          <a
+            className="discord"
+            href="https://discord.com/invite/nCXtMzkteR"
+            target="_blank"
+            rel="noreferrer"
+          >
             {" "}
             <img
               src={"./images/icons/Discord.svg"}
@@ -56,7 +65,7 @@ const Navbar = () => {
             <div className="distext">Join Discord</div>
           </a>
 
-          <a className="devfolio" href="#">
+          <a className="devfolio" href="#" target="_blank" rel="noreferrer">
             <div
               class="apply-button devfolio-button"
               data-hackathon-slug="HACKIIITV2021"

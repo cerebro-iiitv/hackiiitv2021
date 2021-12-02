@@ -3,7 +3,7 @@ import "./Prizes.css";
 
 const Prizes = () => {
   return (
-    <div className="mainContainer">
+    <div className="mainContainer" id="prizes">
       <div className="redHeading">Exciting</div>
       <div className="mainHeading">Prizes</div>
 
@@ -15,7 +15,7 @@ const Prizes = () => {
         </div>
 
         <div className="prize-item">
-          <div className="prize-number"><div className="numberText">2st</div></div>
+          <div className="prize-number"><div className="numberText">2nd</div></div>
           <div className="prize-text"><p className="mainText"><img src={"./images/icons/tick.svg"} alt="tick" className="tickImg"/>6000/-</p></div>
         </div>
 
