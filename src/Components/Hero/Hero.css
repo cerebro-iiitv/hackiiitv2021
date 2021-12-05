@@ -15,6 +15,7 @@
 
 .hero-container .hero-column .hero-img {
   padding-top: 20px;
+  width: 38vw;
 }
 
 .hero-container .hero-column .hero-date {
@@ -62,7 +63,14 @@
   padding-right: 10px;
 }
 
-@media (max-width: 600px) {
+
+@media (max-width: 1240px) {
+  .hero-buttons {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 1000px) {
   .hero-container {
     padding-top: 25px;
     padding-bottom: 0px;
@@ -73,10 +81,16 @@
 
   .hero-container .hero-column {
     width: 100%;
+    text-align: center;
   }
 
+  /* .hero-container .hero-column .hero-img {
+    width: 40vw;
+  } */
+
   .hero-img {
-    width: 100%;
+    /* width: 80%; */
+    align-items: center;
   }
 
   .hero-container .hero-column .hero-text {
@@ -84,7 +98,7 @@
   }
 
   .hero-logo {
-    width: 80%;
+    /* width: 80%; */
     padding: 0px 30px;
   }
 
@@ -92,9 +106,23 @@
     padding: 0px 20px;
     text-align: center;
   }
+
+  .hero-buttons {
+    align-items: center;
+  }
 }
 
-@media (min-width: 1000px) {
+@media (max-width: 600px) {
+  .hero-img {
+    width: 80%;
+  }
+
+  .hero-logo {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1240px) {
   .hero-buttons {
     display: none;
   }

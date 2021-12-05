@@ -74,14 +74,9 @@
   text-decoration: none;
 }
 
-@media (max-width: 600px) {
-  .footer-text {
-    font-size: 14px;
-  }
-
+@media (max-width: 1240px) {
   .footer-email {
-    font-size: 18px;
-    padding-bottom: 60px;
+    font-size: 26px;
   }
 
   .footer-social-icon {
@@ -89,6 +84,25 @@
     height: 30px;
     padding-bottom: 30px;
   }
+}
+
+@media (max-width: 600px) {
+  .footer-text {
+    padding-top: 25px;
+    font-size: 14px;
+  }
+
+  .footer-email {
+    font-size: 18px;
+    padding-bottom: 60px;
+    padding-top: 20px;
+  }
+
+  /* .footer-social-icon {
+    width: 30px;
+    height: 30px;
+    padding-bottom: 30px;
+  } */
 
   .footer-copyright-title {
     padding: 10px;
