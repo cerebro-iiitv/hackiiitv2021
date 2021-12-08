@@ -6,6 +6,12 @@
   flex-direction: column;
 }
 
+.prizeCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .redHeading {
   display: flex;
   justify-content: center;
@@ -45,7 +51,7 @@
 
 .prize-item {
   width: 320px;
-  height: 600px;
+  height: 500px;
   border: 2px solid #ffffff;
   box-sizing: border-box;
   border-radius: 20px;
@@ -101,6 +107,7 @@
   }
 
   .prize-item {
+    width: 95%;
     margin-top: 20px;
   }
 }
