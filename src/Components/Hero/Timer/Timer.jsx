@@ -6,10 +6,11 @@ const Timer = () => {
   const [hours, setHours] = useState("00");
   const [minutes, setMinutes] = useState("00");
   const [seconds, setSeconds] = useState("00");
+  const [timerEnabled, setTimerEnabled] = useState(true);
 
   useEffect(() => {
     //TODO: Set the countdown date here
-    const countdownDate = new Date("Dec 10, 2021 00:00:00").getTime();
+    const countdownDate = new Date("Dec 10, 2021 15:00:00").getTime();
 
     const interval = setInterval(() => {
       const currentTime = new Date().getTime();
@@ -31,12 +32,13 @@ const Timer = () => {
         setHours("00");
         setMinutes("00");
         setSeconds("00");
+        setTimerEnabled(false);
       }
     }, 1000);
   }, []);
 
   return (
-    <div className="timer-container">
+    <div className="timer-container" style={{display : `${timerEnabled ? '' : 'none'}`}}>
       <div className="timer-item">
         <div className="timer-title">Days</div>
         <div className="timer-subtitle">{days}</div>

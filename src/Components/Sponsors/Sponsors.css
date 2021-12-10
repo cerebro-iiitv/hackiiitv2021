@@ -48,6 +48,21 @@
   font-family: avenir-bold;
 }
 
+@media (max-width: 1240px) {
+  .sponsors-images-wrapper {
+    flex-direction: column;
+  }
+
+  /* .sponsors-image {
+    width: 150px;
+    height: 100px;
+  }
+
+  .sponsors-category {
+    font-size: 30px;
+  } */
+}
+
 @media (max-width: 600px) {
   .sponsors-images-wrapper {
     flex-direction: column;

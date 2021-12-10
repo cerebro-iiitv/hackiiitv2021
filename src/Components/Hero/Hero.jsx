@@ -48,7 +48,7 @@ const Hero = () => {
 
             <a className="devfolio" href="#" target="_blank" rel="noreferrer">
               <div
-                class="apply-button devfolio-button"
+                className="apply-button devfolio-button"
                 data-hackathon-slug="HACKIIITV2021"
                 data-button-theme="light"
               ></div>

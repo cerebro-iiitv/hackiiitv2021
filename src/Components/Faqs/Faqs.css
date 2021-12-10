@@ -42,8 +42,9 @@
   background: #ff5f5d;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .faqs-title {
+    padding-top: 25px;
     font-size: 60px;
   }
 

@@ -9,7 +9,6 @@ const Timeline = ({ day }) => {
       {scheduledata[day].map((data, index) => (
         <TimelineItem data={data} key={index} />
       ))}
-      {console.log(day)}
     </div>
   );
 };

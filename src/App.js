@@ -20,7 +20,7 @@ function App() {
       <Rules />
       {/* <Themes /> */}
       <Schedule />
-      {/* <Prizes /> */}
+      <Prizes />
       <Sponsors />
       <Team />
       <Faqs />
