@@ -1,7 +1,6 @@
 import React from "react";
 import "./Team.css";
 import { mentordata } from "./util/MentorData";
-import { teamdata } from "./util/TeamData";
 import TeamCard from "./TeamCard/TeamCard";
 
 const Team = () => {
