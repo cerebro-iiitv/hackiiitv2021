@@ -4,6 +4,9 @@ import "./TeamCard.css";
 const TeamCard = ({ data }) => {
   return (
     <div className="teamcard-container">
+      <div className="teamcard-image-container">
+        <img className="teamcard-image" src={data.imageURL} alt="profile" />
+      </div>
       <div className="teamcard-details">
         <h2 className="teamcard-name">{data.name}</h2>
         <p className="teamcard-post">{data.post}</p>
