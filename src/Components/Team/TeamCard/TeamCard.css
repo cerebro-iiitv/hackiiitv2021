@@ -2,16 +2,21 @@
   padding: 30px 0px;
 }
 
+.teamcard-image-container {
+  /* width: 320px; */
+  height: 320px;
+}
+
+.teamcard-image {
+  /* width: 320px; */
+  height: 320px;
+  border-radius: 20px 20px 0px 0px;
+}
 
 .teamcard-details {
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background: none;
   background-color: #393E82;
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 0px 0px 20px 20px;
   width: 320px;
 }
 
